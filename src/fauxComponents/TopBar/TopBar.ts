@@ -9,12 +9,12 @@ export function TopBar(): angular.IDirective {
   return {
     templateUrl,
     restrict: 'E',
-    bindToController: true,
     controller: TopBarController,
     controllerAs: 'ctrl',
     replace: true,
-    scope: {
-      appTitle: '<'
+    scope: {},
+    bindToController: {
+      appTitle: '@',
     }
   }
 }

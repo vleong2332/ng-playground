@@ -1,5 +1,5 @@
 import * as angular from 'angular';
-import { registerTo as registerComponentsTo } from './components';
+import { registerTo as registerComponentsTo } from './fauxComponents';
 
 import './index.less';
 
